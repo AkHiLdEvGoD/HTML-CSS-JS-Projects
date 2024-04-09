@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <div class="search-box">
+                    <input class="input" type="text" placeholder="Enter City Name">
+                </div>
+                <button class="search-icon">
+                    <i class='bx bx-search' id="icon"></i>
+                </button>
+            </header>
+            <div class="main">
+                <div class="weather">
+                    <div class="icon">
+                        <img src="raining.png" class="weather-icon">
+                    </div>
+                    <h1 class="temp">22&deg</h1>
+                    <h2 class="city">New York city</h2>
+                </div>
+                <footer>
+                    <div class="details">
+                        <div class="col">
+                            <img class="humid-icon" src="humidity.svg">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p class="text-humid">Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="wind.svg" class="wind-icon">
+                            <div>
+                                <p class="wind">50%</p>
+                                <p class="text-wind">Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
